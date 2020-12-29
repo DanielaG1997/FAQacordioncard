@@ -1,20 +1,43 @@
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+.senora {
+  display: flex;
+  align-self: center;
+}
+/*.senora img {
+  margin-left:;
+}*/
 .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
 .panel {
-    padding: 0 18px;
-    background-color: white;
-    overflow: hidden;
-  }
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+}
 .line {
-    border-bottom: 1px solid grey;
-    display: block;
+  border-bottom: 1px solid grey;
+  display: block;
+}
+.cajadetexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+}
+.tarjeta {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
 }
