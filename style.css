@@ -23,6 +23,7 @@ body {
   padding: 0 18px;
   background-color: white;
   overflow: hidden;
+  width: 80%;
 }
 .line {
   border-bottom: 1px solid grey;
